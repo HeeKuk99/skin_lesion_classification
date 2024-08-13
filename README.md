@@ -91,10 +91,10 @@ input data size는 4.에서 test accuracy가 상대적으로 높았던 256*256, 
  ![image](https://github.com/user-attachments/assets/322c43c5-0952-44ea-af9f-b1e8b70aca9c)  
 -	300  
  ![image](https://github.com/user-attachments/assets/69871dbe-50ce-4585-979c-7b7e82dc2686)  
-VI.	Conclusion
+## Conclusion
 -	 Input data size와 여러 hyper parameters 등을 변화시켜 학습한 결과 input data size 256*256, epochs 10, batch size 8, learning rate 0.000007에서 가장 높은 test accuracy 값을 보였다. 그러나 병변 진단에 있어서는 성공적인 결과가 도출되었다고 할 수는 없다. 더 좋은 성능을 위해서는 여러 요인을 변화시켜서 학습했던 결과를 바탕으로 model layer를 추가적으로 변경해야 할 것이다.
 
-VII.	Reference
+## Reference
 -	 Mahbod, A., Schaefer, G., Wang, C., Dorffner, G., Ecker, R. & Ellinger, I. (2020). Transfer learning using a multi-scale and multi-network ensemble for skin lesion classification. https://doi.org/10.1016/j.cmpb.2020.105475.
 -	GitHub - j05t/lesion-analysis: Skin Lesion Analysis Towards Melanoma Detection
 -	GitHub - dasoto/CNN to identify malign moles on skin
